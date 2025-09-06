@@ -77,19 +77,10 @@ const Navigation = () => {
   const mobileMenuVariants = {
     closed: {
       x: "100%",
-      transition: {
-        type: "spring",
-        stiffness: 400,
-        damping: 40,
-      },
     },
     open: {
       x: "0%",
-      transition: {
-        type: "spring",
-        stiffness: 400,
-        damping: 40,
-      },
+
     },
   }
 
