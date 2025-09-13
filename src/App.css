@@ -36,6 +36,11 @@
 .card {
   padding: 2em;
 }
+text-primary-foreground transition-colors{
+  color: var(--primary-foreground);
+  transition: color 0.3s;
+  
+}
 
 .read-the-docs {
   color: #888;
