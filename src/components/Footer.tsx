@@ -143,9 +143,16 @@ const Footer = () => {
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ delay: 0.8, duration: 0.6 }}
         >
-          <p className="font-body text-primary-foreground/60">
-            © 2025 وافلو. جميع الحقوق محفوظة. تطوير بوسطة محمد عيد.
-          </p>
+           <p className="font-body text-primary-foreground/60">
+          © 2025 وافلو. جميع الحقوق محفوظة. تطوير بوسطة{' '}
+          <a
+            href="https://github.com/mhmdDx"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary-foreground transition-colors">
+            محمد عيد
+          </a>.
+        </p>
         </motion.div>
       </div>
     </motion.footer>
