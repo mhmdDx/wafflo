@@ -136,8 +136,8 @@ const Footer = () => {
             </motion.div>
           </motion.div>
         </motion.div>
-
-       <motion.div
+        
+<motion.div
   className="border-t border-primary-foreground/20 mt-8 pt-8 text-center"
   initial={{ opacity: 0, y: 20 }}
   animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
