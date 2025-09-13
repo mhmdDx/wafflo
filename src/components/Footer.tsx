@@ -137,22 +137,24 @@ const Footer = () => {
           </motion.div>
         </motion.div>
 
-        <motion.div
-          className="border-t border-primary-foreground/20 mt-8 pt-8 text-center"
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-          transition={{ delay: 0.8, duration: 0.6 }} >
-     <p className="font-body text-primary-foreground/60">
-          © 2025 وافلو. جميع الحقوق محفوظة. تطوير بوسطة{' '}
-          <a
-            href="https://github.com/mhmdDx"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-primary-foreground transition-colors">
-            محمد عيد
-          </a>.
-        </p>
-        </motion.div>
+       <motion.div
+  className="border-t border-primary-foreground/20 mt-8 pt-8 text-center"
+  initial={{ opacity: 0, y: 20 }}
+  animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+  transition={{ delay: 0.8, duration: 0.6 }}
+>
+  <p className="font-body text-primary-foreground/60">
+    <span className="text-primary-foreground/40">©</span> 2025 وافلو. جميع الحقوق محفوظة. تطوير بوسطة{' '}
+    <a
+      href="https://github.com/mhmdDx"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-primary-foreground transition-colors"
+    >
+      محمد عيد
+    </a>.
+  </p>
+</motion.div>
       </div>
     </motion.footer>
   )
