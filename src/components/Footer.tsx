@@ -146,7 +146,7 @@ const Footer = () => {
 <p className="font-body text-primary-foreground/60">
     <span className="text-primary-foreground/40">©</span> 2025 وافلو. جميع الحقوق محفوظة. تطوير بوسطة{' '}
     <a
-      href="https://github.com/mhmdDx"
+      href="https://mohamed-eid.vercel.app/"
       target="_blank"
       rel="noopener noreferrer"
       style={{ color: '#fff' }}
